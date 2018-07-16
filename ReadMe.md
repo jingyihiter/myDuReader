@@ -9,8 +9,8 @@
 
 对于给定问题_q_及其对应的文本形式的候选文档集合_D=d1, d2, ..., dn，_要求参评阅读理解系统自动对问题及候选文档进行分析， 输出能够满足问题的文本答案a。目标是a能够正确、完整、简洁地回答问题_q_。
 
-### 2. 数据简介
-
+### 2. 数据简介 
+[数据详情](https://github.com/jingyihiter/myDuReader/blob/master/Data_introduction.md)
 本次竞赛数据集来自搜索引擎真实应用场景，其中的问题为百度搜索用户的真实问题，每个问题对应5个候选文档文本及人工整理的优质答案。
 
 数据集共包含30万问题，包括27万的训练集，1万开发集和2万测试集。其中20万数据已在[DuReader](https://arxiv.org/abs/1711.05073)发布，包括18万训练集、1万的开发集和1万的测试集。这部分数据可自由下载（[下载地址](https://ai.baidu.com/broad/introduction?dataset=dureader)），供参赛者训练和测试使用。报名截止后，新增的10万数据集也将在数据下载区发布。
@@ -28,7 +28,7 @@
 
 ## 主要模型
 ![BiDAF+self attention](data/BiDAF.png)
-
+### [实验](Experiment.md)
 ## 最终排名
 [排行榜](http://mrc2018.cipsc.org.cn/cipsc)
 
