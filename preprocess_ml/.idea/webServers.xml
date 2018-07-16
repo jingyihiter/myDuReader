@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="3778a21c-c51e-40e4-80b6-249bd0c95821" name="6195" url="http://202.118.229.11">
+        <fileTransfer host="202.118.229.11" port="6195" rootFolder="/home/jyma" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="6195" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="23ef0243-71db-4c8a-9849-33468fc18709" name="232" url="http://202.118.228.121">
+        <fileTransfer host="202.118.228.121" port="5232" rootFolder="/home/jyma" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="5232" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
